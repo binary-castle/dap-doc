@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="d"
+                 name="Dr Assistant Pro"
+                 start-page="intro.md">
+
+    <toc-element topic="intro.md"/>
+    <toc-element topic="installation.md"/>
+    <toc-element topic="patient.md"/>
+    <toc-element topic="doctor.md"/>
+    <toc-element topic="appointment.md"/>
+    <toc-element topic="prescription.md"/>
+    <toc-element topic="prescription_builder.md"/>
+    <toc-element topic="prescription_helpers.md"/>
+    <toc-element topic="drug_management.md"/>
+    <toc-element topic="invoice.md"/>
+    <toc-element topic="website_settings.md"/>
+    <toc-element topic="web_pages.md"/>
+    <toc-element topic="file_manager.md"/>
+</instance-profile>
