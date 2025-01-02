@@ -63,15 +63,15 @@ jobs:
             artifacts/${{ env.ALGOLIA_ARTIFACT }}
           retention-days: 7
 
-      - name: Extract webHelpD2-all.zip
+      - name: Extract webHelp artifact
         run: |
-          mkdir docs
-          unzip artifacts/${{ env.ARTIFACT }} -d docs/
+          mkdir -p docs
+          unzip artifacts/${{ env.ARTIFACT }} -d docs
 
       - name: Deploy documentation to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # Use the custom PAT secret
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           destination_branch: gh-pages
           target_dir: '/dap-doc'
