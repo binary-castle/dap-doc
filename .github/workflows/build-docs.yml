@@ -67,12 +67,14 @@ jobs:
         run: |
           mkdir -p docs
           unzip artifacts/${{ env.ARTIFACT }} -d docs
+          mkdir -p docs/dap-doc
+          mv docs/* docs/dap-doc/
 
       - name: Deploy documentation to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_PAT }}
-          publish_dir: ./docs
+          publish_dir: ./docs/dap-doc
           destination_branch: gh-pages
           target_dir: '/dap-doc'
           user_name: 'GitHub Actions'
