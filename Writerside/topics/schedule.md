@@ -14,7 +14,7 @@
 <li>Enter title of the schedule, i.e: Schedule for The A Hospital</li>
 <li>Enter the scheudle address, i.e: Schedule at Dhaka, Bangladesh</li>
 <li>Enter the contact person email</li>
-<li>Select the Day (select from the dropdown Mon to Sat)</li>
+<li>Select the Day (select from the dropdown Mon to Sat) <img src="../assets/images/schedule/schedule-days-dropdown.png" style="inline" alt=""/> </li>
 <li>Enter the start time</li>
 <li>Enter the end time</li>
 <li>Enter each schedule duration
