@@ -3,6 +3,14 @@
 You can style your own prescription from few selected elements and variables. To start styling the prescription need
 visit Prescription Builder Page.
 
+![Prescription Style](../assets/images/prescription-style/prescription-builder-base.png)
+
+1. Page setup
+2. [Drag element](#elements)
+3. Dropzone
+4. [Variables](#variables)
+5. Export / Save Prescription Style
+
 ## Variables
 
 Variable is used to put dynamic text on static [header](#header) / [text block](#text),
@@ -57,9 +65,40 @@ Text filed to modify text content
 
 ![Header Element](../assets/images/prescription-style/element-header.png)
 
+<table style="none">
+<tr>
+<td>
+<list style="decimal">
+<li>
+Select Header element after drop it
+</li>
+<li>
+Modify header value, you can use <a href="#variables">variables</a> as well
+</li>
+<li>you can pick header size from h1 to h4</li>
+<li>Font style, regular, italic, bold</li>
+<li>font color from color picker</li>
+<li>background color from color picker</li>
+<li>Text align, left , right , center, justify</li>
+<li>Padding</li>
+</list>
+</td>
+<td><img src="../assets/images/prescription-style/option-header.png" thumbnail="true" alt=""/></td>
+</tr>
+</table>
+
 ### Columns
 
 ![Header Element](../assets/images/prescription-style/element-column.png)
+
+Column element is the only element where you can drop other elements, columns can be resize by dragging it from a brack
+point to left and right.
+
+![](../assets/images/prescription-style/column-element-option.png){thumbnail="true"}
+
+1. Breakpoint where you can click hold and drag it left or right to resize
+2. Number of column, set from 1 to 12
+3. Column padding
 
 ### Drugs
 
