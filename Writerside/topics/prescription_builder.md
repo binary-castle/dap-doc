@@ -65,6 +65,67 @@ Text filed to modify text content
 
 ![Header Element](../assets/images/prescription-style/element-drugs.png)
 
+<table style="none">
+<tr>
+<td>
+<list style="decimal">
+<li>
+Select drug element after drop it
+</li>
+<li>
+Select drug style from preset design
+</li>
+<li>You can collapse the drug type style by clicking the up arrow on right</li>
+<li>It will hide or show drug style</li>
+<li>Turn drug style into italic</li>
+<li>Set font weight</li>
+<li>Bracket bind: You can bind the drug type by first, second or third bracket</li>
+<li>You can set the font color</li>
+<li>You can set the background color</li>
+<li>You can prefix string / symbol</li>
+<li>You can subfix string / symbol</li>
+</list>
+</td>
+<td><img src="../assets/images/prescription-style/option-drugs.png" thumbnail="true" alt=""/></td>
+</tr>
+<tr>
+<td colspan="2">
+<note>
+<p>You can do the same for Drug Trade Name, Drug Generic Name, Doses, Duration, Strength and Drug Advice</p>
+</note>
+</td>
+</tr>
+</table>
+
 ### Subscription
 
 ![Header Element](../assets/images/prescription-style/element-subscription.png)
+
+<table style="none">
+<tr>
+<td>
+<list style="decimal">
+<li>
+Select Subscription after drop it
+</li>
+<li>
+You can change the subscription font style
+</li>
+<li>Chang the font weight of subscription label </li>
+<li>Change the background color of subscription label</li>
+<li>Change font color of subscription label</li>
+<li>Change font size of subscription label</li>
+<li>You can prefix string / symbol</li>
+<li>You can subfix string / symbol</li>
+</list>
+</td>
+<td><img src="../assets/images/prescription-style/option-subscription.png" thumbnail="true" alt=""/></td>
+</tr>
+<tr>
+<td colspan="2">
+<note>
+<p>You can do the same for Subscription Content</p>
+</note>
+</td>
+</tr>
+</table>
