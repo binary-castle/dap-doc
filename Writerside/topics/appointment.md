@@ -29,7 +29,7 @@ Upon selecting a doctor the calendar will be enabled to pick an available appoin
 </tr>
 <tr>
 <td>
-<p>By choosing a date from the calendar you will see available time slot for appointment [see the image bellow]</p>
+<p>By choosing a date from the calendar you will see <a href="schedule.md">available time slot</a> for appointment</p>
 </td>
 <td> <img src="../assets/images/appointment/create-appointment-from-step-3.png" alt="Create Appointment" thumbnail="true" /> </td>
 </tr>

@@ -10,7 +10,9 @@
     <toc-element topic="installation.md"/>
     <toc-element topic="patient.md"/>
     <toc-element topic="doctor.md"/>
-    <toc-element topic="appointment.md"/>
+    <toc-element topic="schedule.md"/>
+    <toc-element topic="appointment.md">
+    </toc-element>
     <toc-element topic="prescription.md"/>
     <toc-element topic="prescription_builder.md"/>
     <toc-element topic="prescription_helpers.md"/>
