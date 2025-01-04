@@ -22,7 +22,7 @@ Before you jump off to install the software please make sure you already have th
 
 - Unzip the download file from codecanyon. You will find four folders: `dr_assistant_pro` and `documentation`
 - Go to `dr_assistant_pro` folder and zip all files under `dr_assistant_pro` folder.
-  `(if you use unix like operating system, press Ctrl+H/ Command +H to show dotted files)`.
+  (if you use unix like operating system, press <shortcut>Ctrl+H</shortcut>/ <shortcut>⌘ + Shift + .</shortcut> to show dotted files).
 - Upload the zip file to your website `public_html` and extract it.
 - Make sure the index.php has permission `755`
 - Open a new tab and go to your web domain. Dr Assistant Pro automatically redirect you to the `/install` path to
