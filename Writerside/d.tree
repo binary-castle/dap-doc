@@ -20,5 +20,6 @@
     <toc-element topic="invoice.md"/>
     <toc-element topic="website_settings.md"/>
     <toc-element topic="web_pages.md"/>
+    <toc-element topic="User-Role-Managment.md"/>
     <toc-element topic="file_manager.md"/>
 </instance-profile>
