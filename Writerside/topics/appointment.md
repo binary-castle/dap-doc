@@ -7,7 +7,7 @@ There is two way to create an appointment
 
 ## Appointment from dashboard
 
-<table>
+<table style="none">
 <tr>
 <td>Click on appointment from left sidebar then click on Create Appointment to start Crating an Appointment
 
@@ -48,7 +48,7 @@ This button will take user to the single doctor page and user will this page bel
 
 ![Single Doctor](../assets/images/appointment/single-doctor.png)
 
-<table>
+<table style="none">
 <tr>
 <td>
 <ol>

@@ -5,7 +5,7 @@ previous appointment. We call it Quick appointment.
 
 ## Quick Appointment
 
-<table>
+<table style="none">
 <tr>
 <td>
 <ol>
@@ -45,7 +45,7 @@ Select a doctor from the dropdown
 
 ## Prescription From Appointment
 
-<table>
+<table style="none">
 <tr>
 <td>
 <ol>
