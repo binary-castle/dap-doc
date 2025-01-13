@@ -2,7 +2,7 @@ name: Build and Deploy Documentation
 
 on:
   push:
-    branches: [ "deploy" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 permissions:
@@ -70,15 +70,11 @@ jobs:
           mkdir -p docs/dap-doc
           mv docs/* docs/dap-doc/
 
-      - name: Deploy documentation to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GH_PAT }}
-          publish_dir: ./docs/dap-doc
-          destination_branch: gh-pages
-          target_dir: '/dap-doc'
-          user_name: 'GitHub Actions'
-          user_email: 'github-actions@github.com'
+      - name: Deploy documentation via Rsync
+        run: |
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./docs/dap-doc/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:${{ secrets.DEPLOY_DIRECTORY }}
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
 
       # Optional: you can delete the artifact from the previous step to clean up
       - name: Clean up uploaded artifacts
