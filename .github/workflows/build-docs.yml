@@ -67,8 +67,13 @@ jobs:
         run: |
           mkdir -p docs
           unzip artifacts/${{ env.ARTIFACT }} -d docs
+          
+          # Ensure the destination folder exists
           mkdir -p docs/dap-doc
-          mv docs/* docs/dap-doc/
+          
+          # Move everything except 'dap-doc' into 'docs/dap-doc'
+          shopt -s extglob
+          mv docs/!(dap-doc) docs/dap-doc/
 
       - name: Deploy documentation via Rsync
         run: |
