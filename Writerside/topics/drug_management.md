@@ -42,7 +42,7 @@ If you don't see your desire drug type can you create one from drug type menu.
 </tr>
 </table>
 
-### Drug variation at Prescription Writing
+## Drug variation at Prescription Writing
 
 ![](../assets/images/drug-management/drug-at-prescription.png){thumbnail="true"}
 

@@ -86,7 +86,7 @@ new one which is not in the list from
 </note>
 </li>
 <li>
-This is Drug section, to add drug in the prescription you can you select/create drug, drug type, strength, doses, 
+This is <a href="drug_management.md">Drug</a> section, to add drug in the prescription you can you select/ <a href="drug_management.md#drug-variation-at-prescription-writing">create drug</a>, drug type, strength, doses, 
 duration adn drug advices 
 </li>
 <li>
