@@ -78,11 +78,18 @@ jobs:
       - name: Deploy documentation via SSH
         uses: easingthemes/ssh-deploy@v2
         with:
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          remote_host: ${{ secrets.SSH_HOST }}
-          remote_user: ${{ secrets.SSH_USER }}
-          source: ./docs/dap-doc/
-          target: ${{ secrets.DEPLOY_DIRECTORY }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USER }}
+          SOURCE: "./docs/dap-doc/"
+          TARGET: ${{ secrets.DEPLOY_DIRECTORY }}
+          SCRIPT_BEFORE: |
+            whoami
+            ls -al
+          SCRIPT_AFTER: |
+            whoami
+            ls -al
+            echo $RSYNC_STDOUT
 
       # Optional: you can delete the artifact from the previous step to clean up
       - name: Clean up uploaded artifacts
