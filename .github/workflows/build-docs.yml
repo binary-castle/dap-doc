@@ -61,7 +61,7 @@ jobs:
             artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
             artifacts/${{ env.ALGOLIA_ARTIFACT }}
-          retention-days: 7
+          retention-days: 1
 
       - name: Extract webHelp artifact
         run: |

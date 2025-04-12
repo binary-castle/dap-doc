@@ -2,27 +2,39 @@
 
 ![Schedule Create](../assets/images/schedule/schedule-create.png){thumbnail="true"}
 
-<list type="decimal">
-<li>Select Doctor to whom you want to create schedule for. 
+# Creating a Doctor's Schedule
 
-<note>
-<p>You will not gonna see this by login with a doctor account, a doctor can only be able to schedule for thyself</p>
-</note>
-</li>
-<li>Enter the contact person name</li>
-<li>Enter the contact person phone number</li>
-<li>Enter title of the schedule, i.e: Schedule for The A Hospital</li>
-<li>Enter the scheudle address, i.e: Schedule at Dhaka, Bangladesh</li>
-<li>Enter the contact person email</li>
-<li>Select the Day (select from the dropdown Mon to Sat) <img src="../assets/images/schedule/schedule-days-dropdown.png" style="inline" alt=""/> </li>
-<li>Enter the start time</li>
-<li>Enter the end time</li>
-<li>Enter each schedule duration
-<note>
-<p>Here is the calculation schedule slot: </p>
-<p>if start time is 10:00 AM and end time is 12:00 PM and put 30 in the duration filed it will make 4 schedule slot</p>
-<p>10:00 - 10:30, 10:30 - 11:00, 11:00 - 11:30, 11:30 - 12:00</p>
-</note>
-</li>
+1. **Select Doctor**
+   Select the doctor for whom you want to create a schedule.
 
-</list>
+   > **Note**: When logged in as a doctor, you can only create and manage your own schedule.
+
+2. **Contact Information**
+    - Enter the contact person's full name
+    - Enter the contact person's phone number
+    - Enter the contact person's email address
+
+3. **Schedule Details**
+    - Enter a descriptive title (e.g., "Consultations at City General Hospital")
+    - Enter the complete address (e.g., "123 Medical Center Road, Dhaka, Bangladesh")
+
+4. **Time Slots**
+    - Select the day of the week from the dropdown menu (Monday to Saturday)
+      ![Day selection dropdown](../assets/images/schedule/schedule-days-dropdown.png){style="inline"}
+    - Enter the start time (e.g., "10:00 AM")
+    - Enter the end time (e.g., "2:00 PM")
+    - Enter the duration of each appointment in minutes
+
+   > **Note on Time Slots**:
+   > The system automatically divides the schedule into equal time slots based on your inputs.
+   >
+   > **Example**:
+   > * Start time: 10:00 AM
+   > * End time: 12:00 PM
+   > * Duration: 30 minutes
+   >
+   > This creates 4 appointment slots:
+   > * 10:00 AM - 10:30 AM
+   > * 10:30 AM - 11:00 AM
+   > * 11:00 AM - 11:30 AM
+   > * 11:30 AM - 12:00 PM

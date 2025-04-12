@@ -6,8 +6,22 @@
     <variables></variables>
     <build-profile instance="d">
         <variables>
-            <noindex-content>true</noindex-content>
+            <noindex-content>false</noindex-content>
+            <color-preset>soft</color-preset>
+            <download-title>Get Dr Assistant Pro</download-title>
+            <download-page>
+                https://codecanyon.net/item/dr-assistant-pro-patient-appointment-management-system-in-laravel/24450054
+            </download-page>
+            <showDownloadButton>true</showDownloadButton>
         </variables>
+
+        <footer>
+            <social type="twitter" href="https://x.com/onwriterside"/>
+            <social type="facebook" href="https://x.com/onwriterside"/>
+            <social type="youtube" href="https://x.com/onwriterside"/>
+            <social type="linkedin" href="https://x.com/onwriterside"/>
+            <copyright>2017 BinaryCastle</copyright>
+        </footer>
     </build-profile>
 
 </buildprofiles>
