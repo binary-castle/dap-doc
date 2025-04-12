@@ -3,13 +3,12 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="d"
-                 name="Dr Assistant Pro"
+                 name="Dr Assistant"
                  start-page="intro.md">
 
     <toc-element topic="intro.md"/>
     <toc-element topic="installation.md"/>
     <toc-element topic="patient.md"/>
-    <toc-element topic="doctor.md"/>
     <toc-element topic="schedule.md"/>
     <toc-element topic="appointment.md">
     </toc-element>
@@ -20,6 +19,5 @@
     <toc-element topic="invoice.md"/>
     <toc-element topic="website_settings.md"/>
     <toc-element topic="web_pages.md"/>
-    <toc-element topic="User-Role-Managment.md"/>
     <toc-element topic="file_manager.md"/>
 </instance-profile>

@@ -2,7 +2,7 @@ name: Build and Deploy Documentation
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "lite" ]
   workflow_dispatch:
 
 permissions:
@@ -82,7 +82,7 @@ jobs:
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
           SOURCE: "./docs/dap-doc/"
-          TARGET: ${{ secrets.DEPLOY_DIRECTORY }}
+          TARGET: ${{ secrets.DEPLOY_DIRECTORY_LITE }}
           SCRIPT_BEFORE: |
             whoami
             ls -al

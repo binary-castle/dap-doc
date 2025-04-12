@@ -6,11 +6,11 @@
     <variables></variables>
     <build-profile instance="d">
         <variables>
-            <noindex-content>false</noindex-content>
+            <noindex-content>true</noindex-content>
             <color-preset>soft</color-preset>
-            <download-title>Get Dr Assistant Pro</download-title>
+            <download-title>Get Dr Assistant</download-title>
             <download-page>
-                https://codecanyon.net/item/dr-assistant-pro-patient-appointment-management-system-in-laravel/24450054
+                https://codecanyon.net/item/drassistant-patient-and-prescription-management-system-in-laravel/20260606
             </download-page>
             <showDownloadButton>true</showDownloadButton>
         </variables>
